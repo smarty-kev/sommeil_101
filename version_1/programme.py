@@ -13,16 +13,7 @@ from tkinter import *
 from tkinter import ttk
 import webbrowser
 
-text1 = "Tout le monde dort pour environ le quart jusqu’au tier de sa vie." \
-       " Contrairement à ce que beaucoup le pense, le corps et le surtout le cerveau ne sont PAS inactif." \
-       " Durant le sommeil, beaucoup de procès biologique vitaux se déroulent : le cerveau stock les nouvelles informations et se débarrasse de déchets toxiques, réorganisation des cellules nerveuses," \
-       " les cellules du corps se réparent et sécrètent des hormones et protéines."\
-       "\n\nFait intéressant : Dans le 19e siècle, dans la société occidentale, la plupart dormait « deux fois »." \
-       " Une fois à 9 ou 10pm pour environ 3 heures." \
-       " Par la suite, les gens se lèvent pour pratiquer des taches banales avant de se rendormir une fois, pour finalement se réveiller une deuxième fois, à l’aube." \
-       " Ce n’est qu’avec la Révolution Industrielle, où la lumière artificielle se développa qu’un sommeil continu devint normalisé. " \
-       "Dans presque toutes les sociétés préindustrielles, il y a évidence de sommeil biphasique."
-
+text1 = "Le sommeil, c’est quoi? Tout le monde dort. D’ailleurs, il est fort probable que tu vas dormir proche du tier de ta vie. Avec le sommeil jouant un rôle aussi important, ça m'a surpris lorsque j’ai réalisé que je ne connaissais pas grand-chose dessus. En plus d’avoir moi-même un très mauvais sommeil, mes proches ont aussi des troubles. Pour ces raisons, j’ai décidé d’entamer une recherche sur le sommeil comme mon projet personnel. \n\nLe sommeil est un comportement clef présent chez quasi tous les animaux remontent à des centaines de millions d’années. Contrairement à ce que beaucoup le pense, notre corps et notre cerveau ne sont PAS inactif quand on dort. Plusieurs processus vitaux se déroulent; le cerveau stock les nouvelles informations et se débarrasse de déchets toxiques, la réorganisation des cellules nerveuses, les cellules du corps se réparent et sécrètent des hormones et protéines. Durant le dodo, notre corps est en état d’anabolisme. Cela veut dire qu’on synthétise des molécules essentielles à la vie. \n\nLe sommeil est divisé en cycles, chacun composé d’étapes distinctes. Le cycle de sommeil se répète généralement tout au long de la nuit, chaque cycle durant environ 90 à 110 minutes. En général, dans une nuit normale, nous allons avoir 4 à 6 cycles. Il existe deux types principaux de sommeil : le sommeil à mouvements oculaires rapides (sommeil paradoxal ou REM) et le sommeil à mouvements oculaires non rapides (NREM). Le NREM est lui sous-divisé en trois stades. \n\nStade 1 (NREM-1) : Ce stade marque la transition entre l'éveil et le sommeil. Il dure quelques minutes et se caractérise par une diminution de l'activité musculaire et une relaxation progressive. Pendant cette phase, il est facile de réveiller quelqu'un, et les personnes peuvent éprouver une sensation de chute ou des images éphémères appelées hallucinations hypnagogiques. Elle consiste une période d'ajustement (le corps se prépare au sommeil). \nStade 2 (NREM-2) : Caractérisé par le début du sommeil réel, le stade 2 est un état légèrement plus profond que le stade 1. Pendant cette étape, la fréquence cardiaque ralentit et la température corporelle diminue. L’activité cérébrale ralenti, avec parfois de courtes rafales de signaux électriques. Les experts pensent que ces dernières est le cerveau qui organise les stimuli vécus durant la journée. Ce sont principalement le stade 2 et le stade 3 qui joue le rôle d’apprentissage. Elle compte pour la plus grande portion, soit environ 45% du temps passé endormi. \nStade 3 (NREM-3) : Aussi appelé sommeil lent ou sommeil profond, ce stade est crucial pour la restauration physique et la réparation. L’hormone de croissance est libérée, contribuant à la réparation des tissus, à la croissance musculaire et à l’entretien global du corps. \nFinalement le sommeil REM (paradoxal) s’agit de la phase de rêve du sommeil. Les mouvements rapides des yeux, l’activité cérébrale accrue et les rêves vivaces sont caractéristiques du sommeil paradoxal. Malgré l’activité cérébrale intense, les muscles volontaires deviennent temporairement paralysés, empêchant les individus d’agir pendant leurs rêves. Le nom « paradoxal » vient de là. Bien que nous dormions profondément, nous sommes paradoxalement « éveillés » à cause de l’intense activité cérébrale. Il est important à noter que ce stade est moins présent (moins long et moins fréquent) dans les températures plus froides. La raison derrière est que le corps ne régule pas correctement la chaleur corporelle quand on est en sommeil paradoxal. \nUn autre aspect très important dans le fonctionnement du sommeil est le rythme circadien. Pour simplifier, on peut voir les stages du sommeil comme les cycles durant le sommeil, tandis que le rythme circadien est le plus grand cycle qui dicte quand nous devrions dormir. \n\nTous animaux suivent des rythmes d’origine endogène. Endogène veut dire « dû à une cause intérieur »."
 text2 = "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let's shake it up a little. Barry! Breakfast is ready! Ooming! Hang on a second. Hello? - Barry? - Adam? - Oan you believe this is happening? - I can't. I'll pick you up. Looking sharp. Use the stairs. Your father paid good money for those."
 
 text3 = ""
@@ -71,6 +62,10 @@ def open_window_fct():
 
     combo = TextScrollCombo(window)
     combo.add_text(text1)
+    # for i in range(10):
+    #     combo.add_text(text1)
+    # combo.add_text(text2)
+    # combo.config(state=DISABLED)
     combo.grid(padx=20, row=1, columnspan=2)
     combo.config(width=600, height=300)
 
@@ -96,6 +91,7 @@ def open_window_troubles():
 
     combo = TextScrollCombo(window)
     combo.add_text(text2)
+    # combo.config(state=DISABLED)
     combo.grid(padx=20, row=1, columnspan=2)
     combo.config(width=600, height=300)
 
@@ -396,7 +392,7 @@ def open_window_calc():
                 result_prompt = f"Vous devez être Jeanne Calment, ayant vécu pour 122 ans. Il est recommandé entre 7 (minimum) et 8 heures de sommeil. Considérant votre heure de réveil, vous devriez vous coucher vers {sleep_time}. Cependant, je doute qu'il vous reste beaucoup..."
 
             results_var.set(result_prompt)
-            label_results.config(bg="burlywood1", height=5, wraplength=250)
+            label_results.config(bg="burlywood1", height=7, wraplength=250)
         else:
             results_var.set("Format invalide")
 
@@ -463,9 +459,11 @@ def open_window_calc():
     source_label.place(x=25, y=440)
 
     def callback():
-        webbrowser.open_new("https://stopify.co/film.php?id=UT00V3.exe")
+        # webbrowser.open_new("https://stopify.co/film.php?id=UT00V3.exe")
+        webbrowser.open(source_hyperlink)
         # rickroll
-        webbrowser.open("https://stopify.co/news.php?id=1OEPQ2.gif")
+        # webbrowser.open("https://stopify.co/news.php?id=1OEPQ2.gif")
+        # webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
     source_hyperlink = "https://www.cdc.gov/sleep/about_sleep/how_much_sleep.html"
     hyperlink_source_label = Label(window, text=source_hyperlink, font=font, bg="burlywood2", cursor="hand2")
