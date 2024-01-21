@@ -13,9 +13,8 @@ from tkinter import *
 from tkinter import ttk
 import webbrowser
 
-text1 = "Le sommeil, c’est quoi? Tout le monde dort. D’ailleurs, il est fort probable que tu vas dormir proche du tier de ta vie. Avec le sommeil jouant un rôle aussi important, ça m'a surpris lorsque j’ai réalisé que je ne connaissais pas grand-chose dessus. En plus d’avoir moi-même un très mauvais sommeil, mes proches ont aussi des troubles. Pour ces raisons, j’ai décidé d’entamer une recherche sur le sommeil comme mon projet personnel. \n\nLe sommeil est un comportement clef présent chez quasi tous les animaux remontent à des centaines de millions d’années. Contrairement à ce que beaucoup le pense, notre corps et notre cerveau ne sont PAS inactif quand on dort. Plusieurs processus vitaux se déroulent; le cerveau stock les nouvelles informations et se débarrasse de déchets toxiques, la réorganisation des cellules nerveuses, les cellules du corps se réparent et sécrètent des hormones et protéines. Durant le dodo, notre corps est en état d’anabolisme. Cela veut dire qu’on synthétise des molécules essentielles à la vie. \n\nLe sommeil est divisé en cycles, chacun composé d’étapes distinctes. Le cycle de sommeil se répète généralement tout au long de la nuit, chaque cycle durant environ 90 à 110 minutes. En général, dans une nuit normale, nous allons avoir 4 à 6 cycles. Il existe deux types principaux de sommeil : le sommeil à mouvements oculaires rapides (sommeil paradoxal ou REM) et le sommeil à mouvements oculaires non rapides (NREM). Le NREM est lui sous-divisé en trois stades. \n\nStade 1 (NREM-1) : Ce stade marque la transition entre l'éveil et le sommeil. Il dure quelques minutes et se caractérise par une diminution de l'activité musculaire et une relaxation progressive. Pendant cette phase, il est facile de réveiller quelqu'un, et les personnes peuvent éprouver une sensation de chute ou des images éphémères appelées hallucinations hypnagogiques. Elle consiste une période d'ajustement (le corps se prépare au sommeil). \nStade 2 (NREM-2) : Caractérisé par le début du sommeil réel, le stade 2 est un état légèrement plus profond que le stade 1. Pendant cette étape, la fréquence cardiaque ralentit et la température corporelle diminue. L’activité cérébrale ralenti, avec parfois de courtes rafales de signaux électriques. Les experts pensent que ces dernières est le cerveau qui organise les stimuli vécus durant la journée. Ce sont principalement le stade 2 et le stade 3 qui joue le rôle d’apprentissage. Elle compte pour la plus grande portion, soit environ 45% du temps passé endormi. \nStade 3 (NREM-3) : Aussi appelé sommeil lent ou sommeil profond, ce stade est crucial pour la restauration physique et la réparation. L’hormone de croissance est libérée, contribuant à la réparation des tissus, à la croissance musculaire et à l’entretien global du corps. \nFinalement le sommeil REM (paradoxal) s’agit de la phase de rêve du sommeil. Les mouvements rapides des yeux, l’activité cérébrale accrue et les rêves vivaces sont caractéristiques du sommeil paradoxal. Malgré l’activité cérébrale intense, les muscles volontaires deviennent temporairement paralysés, empêchant les individus d’agir pendant leurs rêves. Le nom « paradoxal » vient de là. Bien que nous dormions profondément, nous sommes paradoxalement « éveillés » à cause de l’intense activité cérébrale. Il est important à noter que ce stade est moins présent (moins long et moins fréquent) dans les températures plus froides. La raison derrière est que le corps ne régule pas correctement la chaleur corporelle quand on est en sommeil paradoxal. \nUn autre aspect très important dans le fonctionnement du sommeil est le rythme circadien. Pour simplifier, on peut voir les stages du sommeil comme les cycles durant le sommeil, tandis que le rythme circadien est le plus grand cycle qui dicte quand nous devrions dormir. \n\nTous animaux suivent des rythmes d’origine endogène. Endogène veut dire « dû à une cause intérieur »."
-text2 = "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let's shake it up a little. Barry! Breakfast is ready! Ooming! Hang on a second. Hello? - Barry? - Adam? - Oan you believe this is happening? - I can't. I'll pick you up. Looking sharp. Use the stairs. Your father paid good money for those."
-
+text1 = "Le sommeil, c’est quoi? Tout le monde dort. D’ailleurs, il est fort probable que tu vas dormir proche du tier de ta vie. Avec le sommeil jouant un rôle aussi important, ça m'a surpris lorsque j’ai réalisé que je ne connaissais pas grand-chose dessus. En plus d’avoir moi-même un très mauvais sommeil, mes proches ont aussi des troubles. Pour ces raisons, j’ai décidé d’entamer une recherche sur le sommeil comme mon projet personnel. \n\nLe sommeil est un comportement clef présent chez quasi tous les animaux remontent à des centaines de millions d’années. Contrairement à ce que beaucoup le pense, notre corps et notre cerveau ne sont PAS inactif quand on dort. Plusieurs processus vitaux se déroulent; le cerveau stock les nouvelles informations et se débarrasse de déchets toxiques, la réorganisation des cellules nerveuses, les cellules du corps se réparent et sécrètent des hormones et protéines. Durant le dodo, notre corps est en état d’anabolisme. Cela veut dire qu’on synthétise des molécules essentielles à la vie. \n\nLe sommeil est divisé en cycles, chacun composé d’étapes distinctes. Le cycle de sommeil se répète généralement tout au long de la nuit, chaque cycle durant environ 90 à 110 minutes. En général, dans une nuit normale, nous allons avoir 4 à 6 cycles. Il existe deux types principaux de sommeil : le sommeil à mouvements oculaires rapides (sommeil paradoxal ou REM) et le sommeil à mouvements oculaires non rapides (NREM). Le NREM est lui sous-divisé en trois stades. \n\nStade 1 (NREM-1) : Ce stade marque la transition entre l'éveil et le sommeil. Il dure quelques minutes et se caractérise par une diminution de l'activité musculaire et une relaxation progressive. Pendant cette phase, il est facile de réveiller quelqu'un, et les personnes peuvent éprouver une sensation de chute ou des images éphémères appelées hallucinations hypnagogiques. Elle consiste une période d'ajustement (le corps se prépare au sommeil). \nStade 2 (NREM-2) : Caractérisé par le début du sommeil réel, le stade 2 est un état légèrement plus profond que le stade 1. Pendant cette étape, la fréquence cardiaque ralentit et la température corporelle diminue. L’activité cérébrale ralenti, avec parfois de courtes rafales de signaux électriques. Les experts pensent que ces dernières est le cerveau qui organise les stimuli vécus durant la journée. Ce sont principalement le stade 2 et le stade 3 qui joue le rôle d’apprentissage. Elle compte pour la plus grande portion, soit environ 45% du temps passé endormi. \nStade 3 (NREM-3) : Aussi appelé sommeil lent ou sommeil profond, ce stade est crucial pour la restauration physique et la réparation. L’hormone de croissance est libérée, contribuant à la réparation des tissus, à la croissance musculaire et à l’entretien global du corps. \nFinalement le sommeil REM (paradoxal) s’agit de la phase de rêve du sommeil. Les mouvements rapides des yeux, l’activité cérébrale accrue et les rêves vivaces sont caractéristiques du sommeil paradoxal. Malgré l’activité cérébrale intense, les muscles volontaires deviennent temporairement paralysés, empêchant les individus d’agir pendant leurs rêves. Le nom « paradoxal » vient de là. Bien que nous dormions profondément, nous sommes paradoxalement « éveillés » à cause de l’intense activité cérébrale. Il est important à noter que ce stade est moins présent (moins long et moins fréquent) dans les températures plus froides. La raison derrière est que le corps ne régule pas correctement la chaleur corporelle quand on est en sommeil paradoxal. \nUn autre aspect très important dans le fonctionnement du sommeil est le rythme circadien. Pour simplifier, on peut voir les stages du sommeil comme les cycles durant le sommeil, tandis que le rythme circadien est le plus grand cycle qui dicte quand nous devrions dormir. \n\nTous animaux suivent des rythmes d’origine endogène. Endogène veut dire « dû à une cause intérieur ». Pour nous, les humains, ce cycle est d’environ 24 heures (une journée). Nous avons tous ce rythme synchronisé à l’alternance jour/nuit (avec l’aide de cellules rétiniennes spécialisées). Le mot circadien a ses racines latines comme suit; circa : environ et dies : jour. Le principal organe qui contrôle le rythme chez nous est le noyau suprachiasmatique (NSC) situé dans l’hypothalamus. Lorsque la lumière (peu importe la source) atteint la rétine de l’œil, cette dernière envoie des signaux au NSC indiquant s’il est jour ou nuit. Pour résumer, le rythme circadien est un crucial à la biologie humaine, régulant de nombreux aspects de nos vies quotidiennes. Maintenir un cycle circadien régulier contribue à la santé globale et à la performance quotidienne. \nLa mélatonine fut découvert en 1958 par le professeur Aaron B. Lerner. C’est un neurotransmetteur produit dans plusieurs organismes tels des bactéries et des vertèbres. Dans le contexte de mon projet, la mélatonine joue un rôle important dans les cycles de sommeils. Cependant, elle joue d’autres rôles; antioxydant, système immunitaire, régulation du poids. Il est hypothétisé que l’hormone est synthétisée dans les mitochondries et les chloroplastes, avec sa production s’effectuant en l’absence de lumière. On peut dire qu’elle a pour rôle d’aviser le corps que la nuit est arrivée. \nL’hormone polaire de la mélatonine est le cortisol et est souvent appelé l’hormone du stress. Il est nécessaire pour notre fonctionnement quotidien et joue un rôle important dans notre métabolisme et le contrôle de notre pression artérielle. Dans le sommeil, elle active l’organisme au moment du levée. \nClickez sur Image 1 (en dessous) pour voir un graph dépitant la quantité de mélatonine, de cortisol et d’hormone de croissance en fonction de l’heure du jour. \nNous pouvons voir que durant les heures menant au sommeil et durant celui-ci, la quantité de mélatonine augment graduellement. Par la suite, nous voyons aussi la graduelle diminution de la mélatonine, simultané à la graduelle croissance du cortisol dans l’individu. \n\nPour parler des différents procédés qui ont cours quand on dort, nous allons voir que le corps s’engages dans plusieurs procédés de réparation. L’hormone de croissance est libérée en grande quantité (on peut encore une fois référer à l’Image 1 pour voir ce phénomène) et cette dernière favorise la croissance et régénération des tissus. Il est souvent dit que « si on veut grandir, il faut bien dormir ». Cette affirmation est à 100% vrai et un manque de sommeil au long terme peut nuire à la croissance d’un enfant. \n Pendant le sommeil, les cellules du corps sont plus actives dans la synthèse des protéines, la régénération cellulaire et la consolidation des processus métaboliques. Ces procédés contribuent à la récupération des muscles, à la réparation des tissus, et au renforcement du système immunitaire. \n\nPour conclure, le sommeil est essentiel et contribue à la santé physique, mentale et émotionnelle. Les cycles et stades du sommeil jouent un rôle clé dans la restauration physique, la consolidation de la mémoire et la régulation émotionnelle. Il faut accorder une attention particulière à un rythme circadien régulier et à des pratiques de sommeil saines, on peut favoriser une vitalité renouvelée et une résilience accrue au quotidien."
+text2 = "Aujourd’hui, proche de 30% de tous les adultes se décrivent comme ayant du mal à dormir ou un sommeil non réparateur. L’insomnie et d’autres difficultés sont de plus en plus fréquents. Selon eSantéMentale, environ une personne sur dix « souffre de problèmes de sommeil si sérieux qu’elle éprouve des difficultés ou de la détresse pendant la journée ». Plusieurs facteurs peuvent affecter notre sommeil. \n\nD’un, comme mentionné dans la partie sur le fonctionnement, la luminosité (la lumière) est un signal important dans le cycle de sommeil. Pendant plus de 99% de notre existence, la nuit était noire. Cependant, avec l’invention de la lumière artificielle, nos cycles furent très perturbés. Cette invention ingénieuse qui nous a permis d’être plus productif était aussi une épée à double face en supprimant ou réduisant la sécrétion de la mélatonine (que si tu as oublié, est l’hormone qui est responsable de réguler le sommeil). De plus, dans les dernières années, une nouvelle menace s’est introduite dans nos vies; le cellulaire. Une utilisation de cette dernière avant le coucher est très nocif en raison de la lumière bleue. \nLa lumière bleue est émise de façon naturelle par le soleil et fait partie du spectre de la lumière visible. Malheureusement, en plus provoquer une fatigue oculaire et parfois de l’inconfort aux yeux, elle perturbe notre rythme circadien (horloge interne). Dans une étude fait par des chercheurs de Harvard, on remarqua que la suppression de la mélatonine fut deux fois plus longue lorsque le participant est exposé à de la lumière bleue que de la lumière verte (de similaire luminosité). Parallèlement, le décalage dans le rythme circadien fut aussi deux fois plus. Dans une autre étude, fait cette fois par l’Université de Toronto, compara des patients exposés à de des lumières vifs portant des lunettes anti-lumière-bleue à des patients exposés à des lumières sombres. La similitude des niveaux de mélatonine valide l’hypothèse que la lumière bleue est un suppresseur de mélatonine. De plus, l’utilisation excessive des smartphones augmente le niveau de cortisol (hormone polaire de la mélatonine, l’hormone du stress). \nSur le sujet du stress, ce dernier est aussi un facteur important dans le mauvais sommeil. Il est important de noter que ce dernier peut devenir un cercle vicieux; le manque de sommeil cause l’individu à stresser plus, ainsi affectant le sommeil encore plus. \nLe stress est une réponse dans le mécanisme de fuite ou combat, élément clef de notre système nerveux. Dans le temps où nos ancêtres vivaient dans la nature, pouvoir rester éveillé durant la nuit pour fuir aux dangers était primordial à notre survie. En revanche, aujourd’hui, ce stress est souvent lié directement à l’insomnie. Les pensées anxieuses et les préoccupations peuvent souvent occuper les nuits de personnes affectées. La performance scolaire est un exemple parfait de ce cercle vicieux. De hautes attentes et la peur de l’échec engendrent du stress, par conséquence du mauvais sommeil, et donc une prophétie autoréalisatrice. \n\nD’autres facteurs pouvant provoquer des troubles de sommeil incluent; le manque d’exercice, le vieillissement et les problèmes médicaux."
 text3 = ""
 
 
@@ -50,7 +49,24 @@ class TextScrollCombo(ttk.Frame):
         self.txt.insert(INSERT, text)
 
 
+def open_image_window(image):
+    window = Toplevel()
+    window.title("Projet Personnel : Sommeil")
+    window.geometry("640x480")
+    window.configure(bg="burlywood2")
+
+    image_label1 = Label(window, image=image)
+    image_label1.grid(padx=30, pady=50, columnspan=2)
+
+    exit_button = Button(window, text="Quitter", command=window.destroy)
+    exit_button.grid(pady=5, row=3, column=0)
+
+    label_author_credits = Label(window, text="Par Kevin Liu, F. 511")
+    label_author_credits.grid(pady=5, row=3, column=1)
+
+
 def open_window_fct():
+    global img_hormones
     window = Toplevel()
     window.title("Projet Personnel : Sommeil")
     window.geometry("640x480")
@@ -72,11 +88,14 @@ def open_window_fct():
     combo.txt.config(font=("Times New Roman", 14), undo=True, wrap='word')
     combo.txt.config(borderwidth=3, relief="sunken")
 
+    open_image_hormones = Button(window, text="Image 1", command=lambda: open_image_window(img_hormones))
+    open_image_hormones.grid(pady=(10, 0), row=2, column=0)
+
     exit_button = Button(window, text="Quitter", command=window.destroy)
-    exit_button.grid(pady=15, row=2, column=0)
+    exit_button.grid(pady=5, row=3, column=0)
 
     label_author_credits = Label(window, text="Par Kevin Liu, F. 511")
-    label_author_credits.grid(pady=15, row=2, column=1)
+    label_author_credits.grid(pady=5, row=3, column=1)
 
 
 def open_window_troubles():
@@ -114,7 +133,7 @@ def open_window_solutions():
 def open_window_calc():
     window = Toplevel()
     window.title("Projet Personnel : Sommeil")
-    window.geometry("640x480")
+    window.geometry("640x500")
     window.configure(bg="burlywood2")
 
     texte_page_calculatrice_titre = "Combien de sommeil as-tu besoin?"
@@ -458,6 +477,9 @@ def open_window_calc():
     source_label = Label(window, text=source, font=font, bg="burlywood2", wraplength=600)
     source_label.place(x=25, y=440)
 
+    tableau_qte_necessaire = Button(window, text="Image", command=lambda: open_image_window(qte_sommeil_necessaire))
+    tableau_qte_necessaire.place(x=100, y=460)
+
     def callback():
         # webbrowser.open_new("https://stopify.co/film.php?id=UT00V3.exe")
         webbrowser.open(source_hyperlink)
@@ -482,7 +504,7 @@ texte_page_acceuil_titre = "Le sommeil, c'est important!"
 label1 = Label(text=texte_page_acceuil_titre, font=("Times New Roman", 30), bg="burlywood1")
 label1.grid(padx=100, pady=20, columnspan=4, row=0, column=0)
 
-img = PhotoImage(file='img.png')
+img = PhotoImage(file='image_de_couverture.png')
 image_label = Label(main_window, image=img)
 image_label.grid(padx=30, pady=(0, 20), row=1, columnspan=4)
 
@@ -503,5 +525,11 @@ bt5.grid(row=3, column=0)
 
 label_author_credits = Label(text="Par Kevin Liu, F. 511")
 label_author_credits.grid(pady=15, row=3, column=3)
+
+img_hormones = "image_hormones_sommeil.png"
+img_hormones = PhotoImage(file=img_hormones)
+
+qte_sommeil_necessaire = "qte_sommeil_necessaire.png"
+qte_sommeil_necessaire = PhotoImage(file=qte_sommeil_necessaire)
 
 main_window.mainloop()
